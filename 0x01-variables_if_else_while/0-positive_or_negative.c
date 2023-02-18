@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
- * Description: prints if a number is positive or negative.
+ * main - Determines if a number is positive, negative or zero.
  * Return: 0
  */
 int main(void)
@@ -17,7 +16,7 @@ int main(void)
 		print("%d is positive\n",n);
 
 	}
-  	else if (n==0)
+  	else if (n == 0)
 	{
 		print("%d is zero\n",n);
 
