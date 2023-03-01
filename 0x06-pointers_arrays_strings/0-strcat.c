@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - Concatenates two strings using at most
+ * _strcat - Concatenates two strings using at most
  * an inputted number of bites from src.
  * @dest: The string to be appended upon.
  * @src: The string to be appended to dest.
@@ -27,6 +27,6 @@ char *_strcat(char *dest, char *src)
 		i++;
 		j++;
 	}
-	dest[i] = '\0';	
+	dest[i] = '\0';
 	return (dest);
 }
